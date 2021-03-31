@@ -31,7 +31,7 @@ namespace WSVenta.Controllers
             if(userresponse == null)
             {
                 respuesta.Exito = 0;
-                respuesta.Mensage = "Usuario o contraseña incorrecta";
+                respuesta.Mensage = "Usuario o contraseña incorrecta verificar datos";
                 return BadRequest(respuesta);
             }
 
